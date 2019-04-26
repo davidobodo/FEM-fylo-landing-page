@@ -1,0 +1,342 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    header{
+      background: url("images/bg-curvy-desktop.svg") no-repeat bottom;
+      background-color: hsl(217, 28%, 15%);
+    }
+
+    #wrapper{
+      width: 1440px;
+      margin: 0 auto;
+      background-color: hsl(218, 28%, 13%);
+    }
+
+    .fylo{
+      display: flex; 
+      justify-content: space-between; 
+      padding: 50px 88px 0 88px;
+    }
+
+    .topNav{
+      display: flex; 
+      width: 270px;
+      justify-content: space-between;
+      height: 80px;
+      align-items: center;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+      font-family: 'Raleway', sans-serif;
+    }
+
+    p{
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .img1{
+      display: flex;justify-content: center;
+    }
+
+    .getStarted{
+      cursor: pointer;
+      padding: 1em 1.3em;
+      font-weight: 700;
+      border-radius: 300px;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      background-color: hsl(198, 60%, 50%);
+      text-decoration: none;
+      box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+      font-family: 'Open Sans', sans-serif;
+      width: 250px;
+    }
+
+    .benefits0{
+      width: 1000px; margin: 0px auto 100px;display: flex;flex-direction: column;height: 600px;justify-content: space-between;
+    }
+
+    .benefits{
+      width: 400px;
+      text-align: center;
+    }
+
+    .benefits1{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .more{
+      display: flex;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .testimonials{
+      width: 320px;
+      background-color: hsl(219, 30%, 18%);
+      padding: 30px;
+       box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+      border-radius:5px;
+    }
+
+    .parentTestimonials{
+      display: flex;
+      width: 1200px;
+      margin: 150px auto 0px;
+      justify-content: space-between;
+    }
+
+    .profile{
+      display: flex;
+    }
+
+    .profile img{
+      width:30px;
+      border-radius: 20px;
+    }
+
+    .profile p{
+      margin-bottom: 0px;
+    }
+
+    .profile h6{
+      margin: 0;
+    }
+
+    .bcta{
+      box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+      border-radius:10px;
+       width: 60%;
+       text-align: center;
+       padding: 60px;
+        position: relative;
+        left: 230px;
+        top: 160px;
+        background-color: hsl(217, 28%, 15%);
+    }
+
+    .bcta p{
+      width: 700px;
+      margin: 0px auto 40px;
+      line-height: 1.5em;
+    }
+
+    footer{
+      background-color: hsl(216, 53%, 9%);
+    }
+
+    input{
+      width: 500px;
+      margin-right: 25px;
+      padding: 16px;
+      border-radius: 33px;
+    }
+
+    .d-flex{
+      display: flex;
+    }
+
+    .contacts{
+      padding: 0px 100px 0px 100px;height: 200px;
+    }
+
+    .lorem{
+      padding-right: 100px;
+    }
+
+    .links{
+      flex: 1;
+       display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .socialmedia{
+      display: flex;justify-content: space-around;padding: 0 70px;
+    }
+
+    .copyright{
+      display: flex; justify-content: flex-end;margin:0 80px 80px 0
+    }
+
+    #ourinfo{
+      width: 380px;
+    }
+
+    .phone{
+      width: 250px;
+    }
+
+    .xtra{
+      height: 150px;
+    }
+
+    .benefits img{
+      height: 78px;
+    }
+
+    .header_info{
+      display: flex;flex-direction: column;align-items: center; padding-bottom: 170px;
+    }
+
+    .header_h1{
+      width: 700px; text-align: center; line-height: 1.5em;
+    }
+
+    .header_p{
+      width: 500px; text-align: center;line-height: 1.8em;
+    }
+
+    .stayProductive{
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column; justify-content: center;
+    }
+
+    .stayProductive h1{
+      width: 300px;
+    }
+
+    hr{
+      margin: 0;
+      width: 170px;
+      margin-top: 5px;
+      color: hsl(176, 68%, 64%);
+    }
+
+    .quotes{
+      position: absolute;
+               display: block;
+                      height: 60px;
+                      top: -45px;
+                      left: -10px;
+                      z-index: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 375px){
+      #wrapper{
+        width: 375px;
+      }
+
+      .fylo{
+        padding:8px 30px
+      }
+      
+      .topNav{
+        width: 180px;
+      }
+
+      .img1{
+        padding: 20px 40px;
+      }
+
+      .header_h1{width: auto;}
+      
+      .header_p{width: auto;}
+      
+      .header_info{padding-left: 20px;
+        padding-right: 20px;}
+
+        header{
+          background: url("images/bg-curvy-mobile.svg") no-repeat bottom;
+        }
+
+        .benefits1{
+          flex-direction: column;
+          height: 550px;
+        }
+
+        .benefits0{
+          height: 1200px;
+          width: auto;
+        }
+
+        .benefits{
+          width: 320px;
+          padding: 0 30px;
+        }
+
+        .img2{
+          width: 330px;
+          margin-left: 21px;
+        }
+
+        .more{
+          flex-direction: column;
+          width: auto;
+        }
+
+        .stayProductive{
+          width: auto;
+          padding: 50px 25px 0;
+        }
+
+        .stayProductive h1{
+          font-size: 19px;
+          width: auto;
+        }
+
+        .parentTestimonials{
+          width: auto;
+          flex-direction: column;
+          padding: 0 50px;
+          height: 850px;
+        }
+
+        .testimonials{
+          width: auto;
+        }
+
+        .quotes{
+          height: 30px;
+          top: -25px;
+          left: 53px;
+        }
+
+        .bcta{
+          width: auto;
+          left: 0;
+          margin: 0 15px;
+          padding: 15px;
+        }
+
+        .bcta p{
+          width: auto;
+        }
+
+        input{
+          width: 277px;
+        }
+
+        .bcta .getStarted{
+          margin-top: 15px;
+          width: auto;
+          display: block;
+        }
+
+    }
