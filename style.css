@@ -339,4 +339,22 @@
           display: block;
         }
 
+        .contacts{
+          height: auto;
+          flex-direction: column;
+          padding: 0 50px;
+        }
+
+        #ourinfo{
+          width: auto;
+        }
+
+        .lorem{
+          padding: 0;
+        }
+
+        .links{
+          margin-top: 40px;
+        }
+
     }
