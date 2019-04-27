@@ -21,14 +21,13 @@
     .fylo{
       display: flex; 
       justify-content: space-between; 
-      padding: 50px 88px 0 88px;
+      padding: 75px 88px 50px 88px;
     }
 
     .topNav{
       display: flex; 
       width: 270px;
       justify-content: space-between;
-      height: 80px;
       align-items: center;
     }
 
@@ -228,6 +227,13 @@
                       z-index: 1;
     }
 
+    .footer_fylo{
+      padding: 250px 0 40px 100px;
+    }
+
+
+
+
 
 
 
@@ -244,11 +250,12 @@
       }
 
       .fylo{
-        padding:8px 30px
+        padding:50px 30px 0;
       }
       
       .topNav{
-        width: 180px;
+        width: 150px;
+        font-size: 14px;
       }
 
       .img1{
@@ -263,7 +270,12 @@
         padding-right: 20px;}
 
         header{
-          background: url("images/bg-curvy-mobile.svg") no-repeat bottom;
+         background-color: hsl(217, 28%, 15%);
+         background-image:none;
+        }
+
+        .header_info{
+          background:url("images/bg-curvy-mobile.svg") no-repeat;
         }
 
         .benefits1{
@@ -355,6 +367,18 @@
 
         .links{
           margin-top: 40px;
+        }
+
+        .footer_fylo{
+          padding-left: 50px;
+        }
+
+        .fylo1{
+          width: 110px;
+        }
+
+        .fylo1 img{
+          width: 100%;
         }
 
     }
